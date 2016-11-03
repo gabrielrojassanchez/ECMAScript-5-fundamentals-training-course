@@ -1,25 +1,18 @@
-/* Normal declared
-var car;
+console.log(car);
+console.log(getInformation(2));
 
-function getInformation() {
-
-}
+var car = 5;
 
 console.log(car);
-console.log(getInformation());
-*/
 
-/*
-* In JavaScript 5 all variables and functions declared are hoisted.
-* The hoisting means that all variables and functions declared will be moved to the top,
-* if this variables have values, these will be omited in declaration.
-*/
+function getInformation(idCar) {
+	name = 'Vento';
 
-console.log(car);
-console.log(getInformation());
+	console.log('This is ' + name + ' with SKU:' + sku);
 
-var car;
+	var name = 'Sedan';
 
-function getInformation() {
+	var sku = '35434534-435345';
 
+	console.log('This is ' + name + ' with SKU:' + sku);
 }
