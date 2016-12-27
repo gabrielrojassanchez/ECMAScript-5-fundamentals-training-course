@@ -1,12 +1,13 @@
 function a() {
-
-    function b() {
-        console.log(myVar);
+	c();
+	var myVar = 2;
+    function c(){
+    	console.log(this.myVar);
     }
+}
 
-	b();
+function b() {
 }
 
 var myVar = 1;
-
 a();
